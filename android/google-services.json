@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "436068705503",
+    "project_id": "emoticare-feb2c",
+    "storage_bucket": "emoticare-feb2c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436068705503:android:b36330eaa8b89a8787756a",
+        "android_client_info": {
+          "package_name": "com.company.emoticare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBciZxzdoo1JM4pGYQP0mBwOknkqmlqlsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

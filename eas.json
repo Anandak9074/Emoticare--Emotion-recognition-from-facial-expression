@@ -1,0 +1,38 @@
+{
+  "cli": {
+    "version": ">= 15.0.5",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true,
+      "distribution": "store",
+      "android": {
+        "package": "com.ananda9656.project",
+        "versionCode": 1
+      },
+      "ios": {
+        "bundleIdentifier": "com.ananda9656.project",
+        "buildNumber": "1"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "track": "production",
+        "releaseStatus": "completed"
+      },
+      "ios": {
+        "submitToStore": true
+      }
+    }
+  }
+}
